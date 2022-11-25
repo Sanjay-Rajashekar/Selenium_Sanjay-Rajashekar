@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="day3.LoginTest"/>
+      <class name="day2.HandleDynamicElements3"/>
+      <class name="day2.HandleDynamicElements2"/>
+      <class name="day2.Task1"/>
+      <class name="day1.OrangeHRM"/>
+      <class name="day2.Task2"/>
+      <class name="day3.SmokeTest"/>
+      <class name="day1.ChromeDriverDemo"/>
+      <class name="day1.Scrpit2"/>
+      <class name="day3.MyFirstTestNG"/>
+      <class name="day3.Task7"/>
+      <class name="day3.MySecondTestNG"/>
+      <class name="day1.Script3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

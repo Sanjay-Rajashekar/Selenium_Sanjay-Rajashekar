@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="classes" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="day3.SmokeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifySocialMediaCount"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- day3.SmokeTest -->
+      <class name="day3.Task7">
+        <methods>
+          <include name="ineurontask"/>
+        </methods>
+      </class> <!-- day3.Task7 -->
+      <class name="day2.HandleDynamicElements3">
+        <methods>
+          <include name="alertDemo"/>
+        </methods>
+      </class> <!-- day2.HandleDynamicElements3 -->
+      <class name="day3.MySecondTestNG">
+        <methods>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- day3.MySecondTestNG -->
+      <class name="day1.Script3">
+        <methods>
+          <include name="Script"/>
+        </methods>
+      </class> <!-- day1.Script3 -->
+      <class name="day3.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="BlankPassword"/>
+        </methods>
+      </class> <!-- day3.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
